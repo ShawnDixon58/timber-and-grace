@@ -183,9 +183,9 @@ h1, h2, h3, h4 {
   overflow: hidden;
   background: linear-gradient(
     135deg,
-    rgba(44, 44, 44, 0.85) 0%,
-    rgba(26, 26, 26, 0.7) 50%,
-    rgba(107, 127, 99, 0.5) 100%
+    rgba(26, 26, 26, 0.8) 0%,
+    rgba(26, 26, 26, 0.65) 50%,
+    rgba(44, 44, 44, 0.7) 100%
   );
   transform: scale(1.05);
   animation: heroZoom 20s ease-in-out infinite alternate;
@@ -198,6 +198,7 @@ h1, h2, h3, h4 {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+  filter: blur(1.5px) brightness(0.85);
 }
 
 @keyframes heroZoom {
