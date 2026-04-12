@@ -127,6 +127,12 @@ h1, h2, h3, h4 {
 }
 
 /* Mobile menu */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
 .mobile-menu-btn {
   display: none;
   background: none;
