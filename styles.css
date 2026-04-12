@@ -198,7 +198,7 @@ h1, h2, h3, h4 {
   height: 100%;
   object-fit: cover;
   z-index: -1;
-  filter: blur(1.5px) brightness(0.85);
+  filter: brightness(0.8);
 }
 
 @keyframes heroZoom {
